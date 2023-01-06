@@ -1,0 +1,50 @@
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <title>Album</title>
+    </head>
+    <body>
+        <div class="myAlbum">My Album</div>
+            <div id="form-container">
+              <form action="#" id="collection_pictures">
+                <div class="form1">
+                <h1>create collection form</h1>
+                <div class="form-group">
+                  <label><b>Collection Name</label>
+                  <input type="text" name="name" placeholder="Enter The Collection Name Here!" />
+                </div>
+                <div class="form-group">
+                  <label> Collection Description</label>
+                  <input type="text" name="description" placeholder="Add Collection Description Here!" />
+                </div>
+                <div class="form-group">
+                  <label>Thumbnail Name</label>
+                  <input type="file" name="thumbnail" placeholder=" Add Collection Description" /></b>
+                </div>
+                <button type="submit" id="group"> Add One or More Collection</button>
+            </div>  
+            </form>
+              <form action="#" id="form">
+                <div class="form1">
+                <h1 class="add">Add Image In Collection Form</h1>
+                <p class="click">click on show collection Button Before add image in collection</p>
+                <div class="form-group">
+                  <label>The Images</label>
+                  <input type="file" name="picture" placeholder="Add Collection Description" />
+                </div>
+                <button type="submit" id="group">Insert Image in Collection</button>
+            </div>  
+            </form>
+            </div>
+            <div id="collection-container">
+              <h1 class="myAlbum1">Added Collection</h1>
+              <div id="combinations"></div>
+            </div>
+          <div id="frame_image"></div>
+          <script src="index.js"></script>
+    </body>
+    </html>
